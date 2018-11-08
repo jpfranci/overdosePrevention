@@ -18,6 +18,11 @@ var SocietySchema = new mongoose.Schema({
         unique: false,
         required: true
     },
+    city: {
+        type: String,
+        required: true,
+        unique: false
+    },
     latitude: {
         type: String,
         required: true

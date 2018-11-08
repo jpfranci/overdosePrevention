@@ -32,6 +32,9 @@
       "config": {
         "googleMaps": { "apiKey": "YOUR ANDROID GOOGLE MAP API KEY HERE" }
       }
+    },
+    "extra": {
+      "databaseURI": "mongodb://jason:temp123@ds255253.mlab.com:55253/society123"
     }
   }
 }
